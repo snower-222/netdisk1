@@ -1,0 +1,30 @@
+# 忽略所有二进制输出目录
+client/bin/
+server/bin/
+
+# 忽略日志文件
+client/log/
+server/log/
+
+# 忽略客户端/服务端临时文件存储目录
+client/disk_root/
+server/disk_root/
+
+# 忽略配置项中临时文件
+client/config/*.bak
+server/config/*.bak
+
+# 可能的临时文件
+*.swp
+*.tmp
+*.log
+
+# 忽略 Windows / macOS 系统生成的垃圾文件
+.DS_Store
+Thumbs.db
+
+# CLion & CMake 忽略项
+cmake-build-*/
+.idea/
+*.iml
+*.user
